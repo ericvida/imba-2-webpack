@@ -1,5 +1,4 @@
 Imba 2 Webpack Template
-[demo]()
 
 ## Run
 ```
