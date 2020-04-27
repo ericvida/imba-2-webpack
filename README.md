@@ -1,6 +1,7 @@
-Imba 2 Webpack Template
+# Imba 2 Webpack Template
 
 ## Run
+
 ```
 # clone the repository
 git clone https://github.com/iamtirado/imba-2-webpack.git imba-app

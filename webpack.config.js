@@ -35,20 +35,4 @@ module.exports = [{
 		path: path.resolve(__dirname, 'public'),
 		filename: '[name].js'
 	}
-},{
-	entry: "./src/sw.imba",
-	target: 'webworker',
-	module: {
-		rules: [{
-			test: /\.imba$/,
-			loader: 'imba/loader'
-		}]
-	},
-	resolve: {
-		extensions: [".imba",".js",".json"]
-	},
-	output: {
-		path: path.resolve(__dirname, 'public'),
-		filename: 'sw.js'
-	}
 }]
