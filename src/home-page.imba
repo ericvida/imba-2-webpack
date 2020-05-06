@@ -1,4 +1,4 @@
-import './comp/app-button'
+import './components/app-button'
 
 var counter = 0
 tag home-page
