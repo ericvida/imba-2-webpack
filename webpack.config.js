@@ -1,10 +1,12 @@
 var path = require('path');
-
+// Import the plugin:
+var DashboardPlugin = require('webpack-dashboard/plugin');
 module.exports = [{
 	entry: {
 		index: "./src/index.imba"
 	},
 	plugins: [
+		new DashboardPlugin()
 	],
 	resolve: {
 		extensions: [".imba",".js",".json"],

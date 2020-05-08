@@ -1,16 +1,24 @@
-tag app-button < button	
-	def render
-		<self>
+
+tag app-button
+	<self>
+		<button>
 			<slot> "click me"
-### css scoped
-button {
-	padding: 5px;
+
+### css
+app-button {
+	display: inline-block;
+}
+app-button button {
+	display: block;
+	font-size: 1.2em;
+	padding: .5em;
 	border-radius: 5px;
 	border: none;
 	background-color: tomato;
-	color: white;	
+	color: white;
+	margin-bottom: 10px;
 }
-button:hover {
+app-button button:hover {
 	cursor: pointer;
 	background-color: orangered;
 }

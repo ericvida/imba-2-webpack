@@ -1,5 +1,4 @@
 import './home-page'
-
 tag app-root
 	def render
 		<self>
